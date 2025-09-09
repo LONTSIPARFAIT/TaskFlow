@@ -16,7 +16,7 @@ const mainNavItems: NavItem[] = [
     },
     {
         title: 'Tasks',
-        href: '/t',
+        href: '/',
         icon: LayoutGrid,
     },
 ];
