@@ -40,7 +40,7 @@ class ProjectController extends Controller
     }
 
     public function destroy(Project $project)
-    {
+    {z
         $project->delete();
         return redirect()->route('projects.index')->with('success', 'Projet supprimé avec succès');
     }
