@@ -36,7 +36,7 @@ class ProjectController extends Controller
             'name' => 'required|string|max:255',
             'description' => 'nullable|string',
         ]));
-        return redirect()->route('projects.index')->with('success', 'Projet mis à jour avec succ');
+        return redirect()->route('projects.index')->with('success', 'Projet mis à jour avec succè');
     }
 
     public function destroy(Project $project)
